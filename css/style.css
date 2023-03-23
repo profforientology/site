@@ -41,21 +41,23 @@ body::-webkit-scrollbar-thumb {
     display: flex;
     gap: 20px;
     align-items: center;
+    transition: 0.4s;
 }
 .nav__contacts a {
     font-size: 30px;
 }
-.nav__contacts button {
+.nav__contacts .button {
     margin-left: 20px;
     padding: 8px 16px;
     background: transparent;
     border: 1px solid var(--color);
     border-radius: 100px;
-    font-size: 16px;
+    font-size: 20px;
     color: var(--color);
     transition: 0.4s;
+    cursor: pointer;
 }
-.nav__contacts button:hover {
+.nav__contacts .button:hover {
     background: #00a1fe;
     box-shadow: 0px 0px 10px #00a1fe;
     border: 1px solid #00a1fe;
@@ -99,11 +101,11 @@ nav a:hover {
 .nav_white a {
     color: black;
 }
-.nav_white button {
+.nav_white .button {
     border: 1px solid var(--bg);
     color: var(--bg);
 }
-.nav_white button:hover {
+.nav_white .button:hover {
     color: var(--color);
 }
 .nav_white .hamburger span {

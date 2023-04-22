@@ -8,22 +8,6 @@
     }
     
 }
-@media (max-width: 1455px) {
-    .info {
-        margin: auto;
-        display: flex;
-        justify-content: space-between;
-        width: 57.2vw;
-    }
-    .lesson {
-        width: 900px;
-    }
-}
-@media (max-width: 1000px)  {
-    .lesson {
-        width: 600px;
-    }
-}
 @media (max-width: 772px) {
 
     .header__main h1 {
@@ -133,9 +117,6 @@
     }
 }
 @media (max-width: 645px) {
-    .lesson {
-        width: 300px;
-    }
     header img {
         display: none;
     }
@@ -157,10 +138,5 @@
     header .header__main p {
         width: 200px;
         font-size: 18px;
-    }
-}
-@media (max-width: 360px) {
-    .lesson {
-        width: 250px;
     }
 }
